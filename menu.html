@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>GISELLE CAFÉ - MENU</title>
+
+    <meta
+      name="description"
+      content="都会の隠れ映えカフェ。リーズナブルな価格で本格イタリアンを味わえるカフェ＆イタリアン。"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Philosopher"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/花ロゴ_01_03.png" />
+    <!-- ↑ファビコン。見えない部分なのでヘッダー内に貼る -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="menu" class="big-bg">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="index.html"
+            ><img class="logo" src="images/花ロゴ_01_03.png" alt="ホーム"
+          /></a>
+        </h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="news.html">News</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="menu-content wrapper">
+        <h2 class="page-title">Menu</h2>
+        <p>季節のデザートと色とりどりの国産野菜のイタリアン</p>
+      </div>
+      <!-- /.menu-content -->
+    </div>
+    <div class="wrapper grid">
+      <div class="item">
+        <a
+          class="grid-gallery"
+          href="images/チーズケーキ.png.jpg"
+          data-aos="fade-up"
+        >
+          <img src="images/チーズケーキ.png" alt="" />
+        </a>
+        <p>当店1番人気のチーズケーキ</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/クレープ.png" data-aos="fade-up">
+          <img src="images/クレープ.png" alt="" />
+        </a>
+        <p>クレープ</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/茶.png" data-aos="fade-up">
+          <img src="images/茶.png" alt="" />
+        </a>
+        <p>紅茶</p>
+      </div>
+      <div class="item">
+        <a
+          class="grid-gallery"
+          href="images/ラザニア.png.png"
+          data-aos="fade-up"
+        >
+          <img src="images/ラザニア.png" alt="" />
+        </a>
+        <p>ラザニア</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/お肉.png" data-aos="fade-up">
+          <img src="images/お肉.png" alt="" />
+        </a>
+        <p>和牛ステーキ</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/ぱすた.png" data-aos="fade-up">
+          <img src="images/ぱすた.png" alt="" />
+        </a>
+        <p>ボロネーゼパスタ</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/さらだ1.png" data-aos="fade-up">
+          <img src="images/さらだ1.png" alt="" />
+        </a>
+        <p>カプレーゼサラダ</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/前菜.png" data-aos="fade-up">
+          <img src="images/前菜.png" alt="" />
+        </a>
+        <p>季節の前菜</p>
+      </div>
+      <div class="item">
+        <a class="grid-gallery" href="images/さけ1.png" data-aos="fade-up">
+          <img src="images/さけ1.png" alt="" />
+        </a>
+        <p>季節のオリジナルカクテル</p>
+      </div>
+    </div>
+    <!-- /.grid -->
+
+    <!-- ↑ ここまで追加 ↑ -->
+    <footer>
+      <div class="wrapper">
+        <p><small>&copy; 2024 Manabox</small></p>
+      </div>
+    </footer>
+    <!-- フッター -->
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    new LuminousGallery(document.querySelectorAll(".grid-gallery"));
+    AOS.init();
+  </script>
+</html>
